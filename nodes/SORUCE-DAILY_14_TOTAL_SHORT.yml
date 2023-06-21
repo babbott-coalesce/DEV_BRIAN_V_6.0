@@ -1,0 +1,49 @@
+steps:
+  DAILY_14_TOTAL_SHORT-fe564bf3-d66f-49e5-9359-82f41c12419f:
+    operation:
+      database: ""
+      dataset: ""
+      deployEnabled: true
+      description: ""
+      locationID: ""
+      locationName: SORUCE
+      metadata:
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: b378300f-0991-4277-8197-574cd5a5292c
+              stepCounter: fe564bf3-d66f-49e5-9359-82f41c12419f
+            config: {}
+            dataType: VARIANT
+            defaultValue: ""
+            description: ""
+            name: V
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 6b2f0600-552f-4fda-9273-adc005f110f3
+              stepCounter: fe564bf3-d66f-49e5-9359-82f41c12419f
+            config: {}
+            dataType: TIMESTAMP_NTZ(9)
+            defaultValue: ""
+            description: ""
+            name: T
+            nullable: true
+            primaryKey: false
+            uniqueKey: false
+        join:
+          joinCondition: FROM {{ ref('SORUCE', 'DAILY_14_TOTAL_SHORT') }}
+      name: DAILY_14_TOTAL_SHORT
+      schema: ""
+      sqlType: Source
+      table: DAILY_14_TOTAL_SHORT
+      type: sourceInput
+    stepCounter: fe564bf3-d66f-49e5-9359-82f41c12419f
