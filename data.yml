@@ -1,10 +1,16 @@
-defaultStorageMapping: DESTINATION
+defaultStorageMapping: SORUCE
 jobs: {}
 locations:
   DESTINATION:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "2":
+        database: DEV_BRIAN_V_6_0
+        schema: DEV_RAW
   SORUCE:
-    mappingDefinitions: {}
+    mappingDefinitions:
+      "2":
+        database: COALESCE_SAMPLE_DATABASE
+        schema: TPCH_SF001
 macros: {}
 packages: {}
 projects: {}
