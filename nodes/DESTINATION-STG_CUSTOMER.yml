@@ -108,7 +108,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_MKTSEGMENT
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: c3172e29-e278-49d5-b8db-879b3edb8654
@@ -122,7 +122,7 @@ steps:
             hashColumns: []
             hashDetails: null
             name: C_COMMENT
-            nullable: false
+            nullable: true
             sourceColumnReferences:
               - columnReferences:
                   - columnCounter: 4e2ff8ba-bed9-4433-888f-542199d90494
