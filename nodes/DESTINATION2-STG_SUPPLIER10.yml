@@ -11,7 +11,7 @@ steps:
       deployEnabled: false
       description: ""
       isMultisource: false
-      locationName: DESTINATION
+      locationName: DESTINATION2
       materializationType: view
       metadata:
         appliedNodeTests: []
