@@ -7,6 +7,11 @@ locations:
       "2":
         database: DEV_BRIAN_V_6_0
         schema: DEV_RAW
+  DESTINATION2:
+    mappingDefinitions:
+      "2":
+        database: DEV_BRIAN_V_6_0
+        schema: DEV_STAGING
   SORUCE:
     mappingDefinitions:
       "2":

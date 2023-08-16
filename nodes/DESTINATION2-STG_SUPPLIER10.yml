@@ -11,7 +11,7 @@ steps:
       deployEnabled: true
       description: ""
       isMultisource: false
-      locationName: SORUCE
+      locationName: DESTINATION2
       materializationType: view
       metadata:
         appliedNodeTests: []
