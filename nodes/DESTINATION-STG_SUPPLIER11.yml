@@ -12,7 +12,7 @@ steps:
       description: ""
       isMultisource: false
       locationName: DESTINATION
-      materializationType: view
+      materializationType: table
       metadata:
         appliedNodeTests: []
         columns:
@@ -124,7 +124,7 @@ steps:
                 nodeName: SUPPLIER
             join:
               joinCondition: FROM {{ ref('SORUCE', 'SUPPLIER') }} "SUPPLIER"
-            name: STG_SUPPLIER1
+            name: STG_SUPPLIER11
             noLinkRefs: []
       name: STG_SUPPLIER11
       overrideSQL: false
