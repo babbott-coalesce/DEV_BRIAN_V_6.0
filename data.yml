@@ -12,6 +12,11 @@ locations:
       "2":
         database: DEV_BRIAN_V_6_0
         schema: DEV_STAGING
+  DESTINATION3:
+    mappingDefinitions:
+      "2":
+        database: ""
+        schema: ""
   SORUCE:
     mappingDefinitions:
       "2":
