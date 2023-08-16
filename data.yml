@@ -237,25 +237,6 @@ stepTypes:
             {% endif %}
     name: Warehouse Stage
     version: 1
-  StepType-2:
-    id: "2"
-    isDisabled: false
-    metadata:
-      defaultStorageLocation: null
-      error: null
-      nodeMetadataSpec: |-
-        capitalized: Corrupted Node Type
-        short: NEW
-        tagColor: gray
-        plural: New Types
-        asdfasdfasdfasdfasdf
-      templates:
-        create:
-          templateString: ""
-        run:
-          templateString: ""
-    name: Corrupted Node Type
-    version: 1
   StepType-Dimension:
     id: Dimension
     isDisabled: false
