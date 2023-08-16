@@ -6,7 +6,7 @@ steps:
       deployEnabled: true
       description: ""
       locationID: ""
-      locationName: SORUCE
+      locationName: DESTINATION2
       metadata:
         columns:
           - acceptedValues:
