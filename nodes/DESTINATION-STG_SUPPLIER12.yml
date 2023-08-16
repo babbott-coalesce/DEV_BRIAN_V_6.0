@@ -124,7 +124,7 @@ steps:
                 nodeName: SUPPLIER
             join:
               joinCondition: FROM {{ ref('SORUCE', 'SUPPLIER') }} "SUPPLIER"
-            name: STG_SUPPLIER
+            name: STG_SUPPLIER12
             noLinkRefs: []
       name: STG_SUPPLIER12
       overrideSQL: false
